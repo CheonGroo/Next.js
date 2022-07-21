@@ -2,6 +2,11 @@
   padding: 0 2rem;
 }
 
+.background {
+  position: relative;
+  min-height: 350px;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -40,9 +45,9 @@
 }
 
 .title {
-  margin: 0;
+  margin: 100px;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 1.15rem;
 }
 
 .title,
@@ -51,9 +56,9 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 100px;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .code {
@@ -106,6 +111,11 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.Groo {
+  align-items: center;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
